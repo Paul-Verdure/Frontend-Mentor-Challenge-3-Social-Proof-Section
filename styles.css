@@ -1,5 +1,5 @@
 body {
-    background: url("images/bg-pattern-top-desktop.svg") fixed no-repeat left top, url("images/bg-pattern-bottom-desktop.svg") fixed no-repeat bottom right ;
+    background: url("bg-pattern-top-desktop.svg") fixed no-repeat left top, url("bg-pattern-bottom-desktop.svg") fixed no-repeat bottom right ;
     font-family: 'Spartan', sans-serif;
     font-size: 15px;
 }
@@ -132,7 +132,10 @@ span {
 
 @media screen and (max-width: 1024px){
 
-     
+    body {
+    background: url("bg-pattern-top-mobile.svg") fixed no-repeat left top, url("bg-pattern-bottom-mobile.svg") fixed no-repeat bottom right ;
+} 
+    
     .container {
         display: block;
     }
